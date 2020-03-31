@@ -1,290 +1,290 @@
-﻿STATENAME,STATE_ABR,COUNTY_FIPS,COUNTY NAME,UV_ Wh/m²
-Alabama,AL,01001,Autauga,4563
-Alabama,AL,01003,Baldwin,4492
-Alabama,AL,01005,Barbour,4642
-Alabama,AL,01007,Bibb,4499
-Alabama,AL,01009,Blount,4416
-Alabama,AL,01011,Bullock,4629
-Alabama,AL,01013,Butler,4579
-Alabama,AL,01015,Calhoun,4466
-Alabama,AL,01017,Chambers,4584
-Alabama,AL,01019,Cherokee,4419
-Alabama,AL,01021,Chilton,4529
-Alabama,AL,01023,Choctaw,4476
-Alabama,AL,01025,Clarke,4488
-Alabama,AL,01027,Clay,4518
-Alabama,AL,01029,Cleburne,4486
-Alabama,AL,01031,Coffee,4628
-Alabama,AL,01033,Colbert,4408
-Alabama,AL,01035,Conecuh,4551
-Alabama,AL,01037,Coosa,4545
-Alabama,AL,01039,Covington,4597
-Alabama,AL,01041,Crenshaw,4607
-Alabama,AL,01043,Cullman,4402
-Alabama,AL,01045,Dale,4644
-Alabama,AL,01047,Dallas,4540
-Alabama,AL,01049,DeKalb,4358
-Alabama,AL,01051,Elmore,4588
-Alabama,AL,01053,Escambia,4535
-Alabama,AL,01055,Etowah,4422
-Alabama,AL,01057,Fayette,4449
-Alabama,AL,01059,Franklin,4415
-Alabama,AL,01061,Geneva,4638
-Alabama,AL,01063,Greene,4484
-Alabama,AL,01065,Hale,4493
-Alabama,AL,01067,Henry,4652
-Alabama,AL,01069,Houston,4658
-Alabama,AL,01071,Jackson,4328
-Alabama,AL,01073,Jefferson,4456
-Alabama,AL,01075,Lamar,4459
-Alabama,AL,01077,Lauderdale,4391
-Alabama,AL,01079,Lawrence,4391
-Alabama,AL,01081,Lee,4609
-Alabama,AL,01083,Limestone,4366
-Alabama,AL,01085,Lowndes,4582
-Alabama,AL,01087,Macon,4620
-Alabama,AL,01089,Madison,4352
-Alabama,AL,01091,Marengo,4495
-Alabama,AL,01093,Marion,4432
-Alabama,AL,01095,Marshall,4377
-Alabama,AL,01097,Mobile,4466
-Alabama,AL,01099,Monroe,4520
-Alabama,AL,01101,Montgomery,4610
-Alabama,AL,01103,Morgan,4380
-Alabama,AL,01105,Perry,4513
-Alabama,AL,01107,Pickens,4474
-Alabama,AL,01109,Pike,4626
-Alabama,AL,01111,Randolph,4539
-Alabama,AL,01113,Russell,4635
-Alabama,AL,01115,St. Clair,4454
-Alabama,AL,01117,Shelby,4492
-Alabama,AL,01119,Sumter,4482
-Alabama,AL,01121,Talladega,4503
-Alabama,AL,01123,Tallapoosa,4574
-Alabama,AL,01125,Tuscaloosa,4471
-Alabama,AL,01127,Walker,4439
-Alabama,AL,01129,Washington,4470
-Alabama,AL,01131,Wilcox,4529
-Alabama,AL,01133,Winston,4411
-Arizona,AZ,04001,Apache,5329
-Arizona,AZ,04003,Cochise,5675
-Arizona,AZ,04005,Coconino,5164
-Arizona,AZ,04007,Gila,5510
-Arizona,AZ,04009,Graham,5630
-Arizona,AZ,04011,Greenlee,5597
-Arizona,AZ,04012,La Paz,5633
-Arizona,AZ,04013,Maricopa,5655
-Arizona,AZ,04015,Mohave,5425
-Arizona,AZ,04017,Navajo,5268
-Arizona,AZ,04019,Pima,5680
-Arizona,AZ,04021,Pinal,5689
-Arizona,AZ,04023,Santa Cruz,5649
-Arizona,AZ,04025,Yavapai,5398
-Arizona,AZ,04027,Yuma,5625
-Arkansas,AR,05001,Arkansas,4547
-Arkansas,AR,05003,Ashley,4579
-Arkansas,AR,05005,Baxter,4432
-Arkansas,AR,05007,Benton,4437
-Arkansas,AR,05009,Boone,4424
-Arkansas,AR,05011,Bradley,4571
-Arkansas,AR,05013,Calhoun,4571
-Arkansas,AR,05015,Carroll,4422
-Arkansas,AR,05017,Chicot,4582
-Arkansas,AR,05019,Clark,4566
-Arkansas,AR,05021,Clay,4427
-Arkansas,AR,05023,Cleburne,4469
-Arkansas,AR,05025,Cleveland,4557
-Arkansas,AR,05027,Columbia,4590
-Arkansas,AR,05029,Conway,4495
-Arkansas,AR,05031,Craighead,4469
-Arkansas,AR,05033,Crawford,4508
-Arkansas,AR,05035,Crittenden,4508
-Arkansas,AR,05037,Cross,4503
-Arkansas,AR,05039,Dallas,4557
-Arkansas,AR,05041,Desha,4566
-Arkansas,AR,05043,Drew,4569
-Arkansas,AR,05045,Faulkner,4498
-Arkansas,AR,05047,Franklin,4505
-Arkansas,AR,05049,Fulton,4426
-Arkansas,AR,05051,Garland,4533
-Arkansas,AR,05053,Grant,4541
-Arkansas,AR,05055,Greene,4447
-Arkansas,AR,05057,Hempstead,4593
-Arkansas,AR,05059,Hot Spring,4546
-Arkansas,AR,05061,Howard,4591
-Arkansas,AR,05063,Independence,4469
-Arkansas,AR,05065,Izard,4444
-Arkansas,AR,05067,Jackson,4483
-Arkansas,AR,05069,Jefferson,4542
-Arkansas,AR,05071,Johnson,4482
-Arkansas,AR,05073,Lafayette,4603
-Arkansas,AR,05075,Lawrence,4456
-Arkansas,AR,05077,Lee,4530
-Arkansas,AR,05079,Lincoln,4556
-Arkansas,AR,05081,Little River,4624
-Arkansas,AR,05083,Logan,4524
-Arkansas,AR,05085,Lonoke,4520
-Arkansas,AR,05087,Madison,4439
-Arkansas,AR,05089,Marion,4432
-Arkansas,AR,05091,Miller,4615
-Arkansas,AR,05093,Mississippi,4467
-Arkansas,AR,05095,Monroe,4533
-Arkansas,AR,05097,Montgomery,4548
-Arkansas,AR,05099,Nevada,4583
-Arkansas,AR,05101,Newton,4438
-Arkansas,AR,05103,Ouachita,4576
-Arkansas,AR,05105,Perry,4514
-Arkansas,AR,05107,Phillips,4546
-Arkansas,AR,05109,Pike,4572
-Arkansas,AR,05111,Poinsett,4487
-Arkansas,AR,05113,Polk,4568
-Arkansas,AR,05115,Pope,4483
-Arkansas,AR,05117,Prairie,4521
-Arkansas,AR,05119,Pulaski,4516
-Arkansas,AR,05121,Randolph,4434
-Arkansas,AR,05123,St. Francis,4519
-Arkansas,AR,05125,Saline,4522
-Arkansas,AR,05127,Scott,4550
-Arkansas,AR,05129,Searcy,4443
-Arkansas,AR,05131,Sebastian,4548
-Arkansas,AR,05133,Sevier,4612
-Arkansas,AR,05135,Sharp,4442
-Arkansas,AR,05137,Stone,4449
-Arkansas,AR,05139,Union,4581
-Arkansas,AR,05141,Van Buren,4462
-Arkansas,AR,05143,Washington,4461
-Arkansas,AR,05145,White,4495
-Arkansas,AR,05147,Woodruff,4507
-Arkansas,AR,05149,Yell,4526
-California,CA,06001,Alameda,4825
-California,CA,06003,Alpine,4934
-California,CA,06005,Amador,4995
-California,CA,06007,Butte,4786
-California,CA,06009,Calaveras,5022
-California,CA,06011,Colusa,4664
-California,CA,06013,Contra Costa,4820
-California,CA,06015,Del Norte,3976
-California,CA,06017,El Dorado,4954
-California,CA,06019,Fresno,5116
-California,CA,06021,Glenn,4576
-California,CA,06023,Humboldt,3995
-California,CA,06025,Imperial,5513
-California,CA,06027,Inyo,5456
-California,CA,06029,Kern,5224
-California,CA,06031,Kings,5186
-California,CA,06033,Lake,4463
-California,CA,06035,Lassen,4766
-California,CA,06037,Los Angeles,5080
-California,CA,06039,Madera,5100
-California,CA,06041,Marin,4595
-California,CA,06043,Mariposa,5067
-California,CA,06045,Mendocino,4248
-California,CA,06047,Merced,5071
-California,CA,06049,Modoc,4678
-California,CA,06051,Mono,5045
-California,CA,06053,Monterey,4983
-California,CA,06055,Napa,4671
-California,CA,06057,Nevada,4895
-California,CA,06059,Orange,5068
-California,CA,06061,Placer,4924
-California,CA,06063,Plumas,4794
-California,CA,06065,Riverside,5480
-California,CA,06067,Sacramento,4957
-California,CA,06069,San Benito,4986
-California,CA,06071,San Bernardino,5633
-California,CA,06073,San Diego,5173
-California,CA,06075,San Francisco,4697
-California,CA,06077,San Joaquin,4976
-California,CA,06079,San Luis Obispo,5096
-California,CA,06081,San Mateo,4729
-California,CA,06083,Santa Barbara,5044
-California,CA,06085,Santa Clara,4871
-California,CA,06087,Santa Cruz,4819
-California,CA,06089,Shasta,4559
-California,CA,06091,Sierra,4865
-California,CA,06093,Siskiyou,4350
-California,CA,06095,Solano,4818
-California,CA,06097,Sonoma,4508
-California,CA,06099,Stanislaus,5018
-California,CA,06101,Sutter,4847
-California,CA,06103,Tehama,4561
-California,CA,06105,Trinity,4205
-California,CA,06107,Tulare,5200
-California,CA,06109,Tuolumne,4997
-California,CA,06111,Ventura,4979
-California,CA,06113,Yolo,4800
-California,CA,06115,Yuba,4884
-Colorado,CO,08001,Adams,4588
-Colorado,CO,08003,Alamosa,5179
-Colorado,CO,08005,Arapahoe,4608
-Colorado,CO,08007,Archuleta,5246
-Colorado,CO,08009,Baca,4995
-Colorado,CO,08011,Bent,4960
-Colorado,CO,08013,Boulder,4505
-Colorado,CO,08015,Chaffee,4770
-Colorado,CO,08017,Cheyenne,4802
-Colorado,CO,08019,Clear Creek,4488
-Colorado,CO,08021,Conejos,5236
-Colorado,CO,08023,Costilla,5171
-Colorado,CO,08025,Crowley,4918
-Colorado,CO,08027,Custer,4936
-Colorado,CO,08029,Delta,4922
-Colorado,CO,08031,Denver,4595
-Colorado,CO,08033,Dolores,5078
-Colorado,CO,08035,Douglas,4621
-Colorado,CO,08037,Eagle,4609
-Colorado,CO,08039,Elbert,4656
-Colorado,CO,08041,El Paso,4738
-Colorado,CO,08043,Fremont,4868
-Colorado,CO,08045,Garfield,4744
-Colorado,CO,08047,Gilpin,4485
-Colorado,CO,08049,Grand,4489
-Colorado,CO,08051,Gunnison,4853
-Colorado,CO,08053,Hinsdale,5025
-Colorado,CO,08055,Huerfano,5066
-Colorado,CO,08057,Jackson,4451
-Colorado,CO,08059,Jefferson,4585
-Colorado,CO,08061,Kiowa,4873
-Colorado,CO,08063,Kit Carson,4724
-Colorado,CO,08065,Lake,4625
-Colorado,CO,08067,La Plata,5200
-Colorado,CO,08069,Larimer,4439
-Colorado,CO,08071,Las Animas,5084
-Colorado,CO,08073,Lincoln,4755
-Colorado,CO,08075,Logan,4524
-Colorado,CO,08077,Mesa,4911
-Colorado,CO,08079,Mineral,5085
-Colorado,CO,08081,Moffat,4659
-Colorado,CO,08083,Montezuma,5178
-Colorado,CO,08085,Montrose,5016
-Colorado,CO,08087,Morgan,4563
-Colorado,CO,08089,Otero,5003
-Colorado,CO,08091,Ouray,5010
-Colorado,CO,08093,Park,4641
-Colorado,CO,08095,Phillips,4547
-Colorado,CO,08097,Pitkin,4688
-Colorado,CO,08099,Prowers,4934
-Colorado,CO,08101,Pueblo,4966
-Colorado,CO,08103,Rio Blanco,4724
-Colorado,CO,08105,Rio Grande,5156
-Colorado,CO,08107,Routt,4540
-Colorado,CO,08109,Saguache,5004
-Colorado,CO,08111,San Juan,5021
-Colorado,CO,08113,San Miguel,5055
-Colorado,CO,08115,Sedgwick,4511
-Colorado,CO,08117,Summit,4527
-Colorado,CO,08119,Teller,4669
-Colorado,CO,08121,Washington,4609
-Colorado,CO,08123,Weld,4514
-Colorado,CO,08125,Yuma,4630
-Connecticut,CT,09001,Fairfield,3849
-Connecticut,CT,09003,Hartford,3819
-Connecticut,CT,09005,Litchfield,3797
-Connecticut,CT,09007,Middlesex,3835
-Connecticut,CT,09009,New Haven,3831
-Connecticut,CT,09011,New London,3853
-Connecticut,CT,09013,Tolland,3827
-Connecticut,CT,09015,Windham,3849
+﻿STATENAME,STATE_ABR,COUNTY_FIPS,COUNTY NAME,UV_Wh/square_meter
+Alabama,AL,1001,Autauga,4563
+Alabama,AL,1003,Baldwin,4492
+Alabama,AL,1005,Barbour,4642
+Alabama,AL,1007,Bibb,4499
+Alabama,AL,1009,Blount,4416
+Alabama,AL,1011,Bullock,4629
+Alabama,AL,1013,Butler,4579
+Alabama,AL,1015,Calhoun,4466
+Alabama,AL,1017,Chambers,4584
+Alabama,AL,1019,Cherokee,4419
+Alabama,AL,1021,Chilton,4529
+Alabama,AL,1023,Choctaw,4476
+Alabama,AL,1025,Clarke,4488
+Alabama,AL,1027,Clay,4518
+Alabama,AL,1029,Cleburne,4486
+Alabama,AL,1031,Coffee,4628
+Alabama,AL,1033,Colbert,4408
+Alabama,AL,1035,Conecuh,4551
+Alabama,AL,1037,Coosa,4545
+Alabama,AL,1039,Covington,4597
+Alabama,AL,1041,Crenshaw,4607
+Alabama,AL,1043,Cullman,4402
+Alabama,AL,1045,Dale,4644
+Alabama,AL,1047,Dallas,4540
+Alabama,AL,1049,DeKalb,4358
+Alabama,AL,1051,Elmore,4588
+Alabama,AL,1053,Escambia,4535
+Alabama,AL,1055,Etowah,4422
+Alabama,AL,1057,Fayette,4449
+Alabama,AL,1059,Franklin,4415
+Alabama,AL,1061,Geneva,4638
+Alabama,AL,1063,Greene,4484
+Alabama,AL,1065,Hale,4493
+Alabama,AL,1067,Henry,4652
+Alabama,AL,1069,Houston,4658
+Alabama,AL,1071,Jackson,4328
+Alabama,AL,1073,Jefferson,4456
+Alabama,AL,1075,Lamar,4459
+Alabama,AL,1077,Lauderdale,4391
+Alabama,AL,1079,Lawrence,4391
+Alabama,AL,1081,Lee,4609
+Alabama,AL,1083,Limestone,4366
+Alabama,AL,1085,Lowndes,4582
+Alabama,AL,1087,Macon,4620
+Alabama,AL,1089,Madison,4352
+Alabama,AL,1091,Marengo,4495
+Alabama,AL,1093,Marion,4432
+Alabama,AL,1095,Marshall,4377
+Alabama,AL,1097,Mobile,4466
+Alabama,AL,1099,Monroe,4520
+Alabama,AL,1101,Montgomery,4610
+Alabama,AL,1103,Morgan,4380
+Alabama,AL,1105,Perry,4513
+Alabama,AL,1107,Pickens,4474
+Alabama,AL,1109,Pike,4626
+Alabama,AL,1111,Randolph,4539
+Alabama,AL,1113,Russell,4635
+Alabama,AL,1115,St. Clair,4454
+Alabama,AL,1117,Shelby,4492
+Alabama,AL,1119,Sumter,4482
+Alabama,AL,1121,Talladega,4503
+Alabama,AL,1123,Tallapoosa,4574
+Alabama,AL,1125,Tuscaloosa,4471
+Alabama,AL,1127,Walker,4439
+Alabama,AL,1129,Washington,4470
+Alabama,AL,1131,Wilcox,4529
+Alabama,AL,1133,Winston,4411
+Arizona,AZ,4001,Apache,5329
+Arizona,AZ,4003,Cochise,5675
+Arizona,AZ,4005,Coconino,5164
+Arizona,AZ,4007,Gila,5510
+Arizona,AZ,4009,Graham,5630
+Arizona,AZ,4011,Greenlee,5597
+Arizona,AZ,4012,La Paz,5633
+Arizona,AZ,4013,Maricopa,5655
+Arizona,AZ,4015,Mohave,5425
+Arizona,AZ,4017,Navajo,5268
+Arizona,AZ,4019,Pima,5680
+Arizona,AZ,4021,Pinal,5689
+Arizona,AZ,4023,Santa Cruz,5649
+Arizona,AZ,4025,Yavapai,5398
+Arizona,AZ,4027,Yuma,5625
+Arkansas,AR,5001,Arkansas,4547
+Arkansas,AR,5003,Ashley,4579
+Arkansas,AR,5005,Baxter,4432
+Arkansas,AR,5007,Benton,4437
+Arkansas,AR,5009,Boone,4424
+Arkansas,AR,5011,Bradley,4571
+Arkansas,AR,5013,Calhoun,4571
+Arkansas,AR,5015,Carroll,4422
+Arkansas,AR,5017,Chicot,4582
+Arkansas,AR,5019,Clark,4566
+Arkansas,AR,5021,Clay,4427
+Arkansas,AR,5023,Cleburne,4469
+Arkansas,AR,5025,Cleveland,4557
+Arkansas,AR,5027,Columbia,4590
+Arkansas,AR,5029,Conway,4495
+Arkansas,AR,5031,Craighead,4469
+Arkansas,AR,5033,Crawford,4508
+Arkansas,AR,5035,Crittenden,4508
+Arkansas,AR,5037,Cross,4503
+Arkansas,AR,5039,Dallas,4557
+Arkansas,AR,5041,Desha,4566
+Arkansas,AR,5043,Drew,4569
+Arkansas,AR,5045,Faulkner,4498
+Arkansas,AR,5047,Franklin,4505
+Arkansas,AR,5049,Fulton,4426
+Arkansas,AR,5051,Garland,4533
+Arkansas,AR,5053,Grant,4541
+Arkansas,AR,5055,Greene,4447
+Arkansas,AR,5057,Hempstead,4593
+Arkansas,AR,5059,Hot Spring,4546
+Arkansas,AR,5061,Howard,4591
+Arkansas,AR,5063,Independence,4469
+Arkansas,AR,5065,Izard,4444
+Arkansas,AR,5067,Jackson,4483
+Arkansas,AR,5069,Jefferson,4542
+Arkansas,AR,5071,Johnson,4482
+Arkansas,AR,5073,Lafayette,4603
+Arkansas,AR,5075,Lawrence,4456
+Arkansas,AR,5077,Lee,4530
+Arkansas,AR,5079,Lincoln,4556
+Arkansas,AR,5081,Little River,4624
+Arkansas,AR,5083,Logan,4524
+Arkansas,AR,5085,Lonoke,4520
+Arkansas,AR,5087,Madison,4439
+Arkansas,AR,5089,Marion,4432
+Arkansas,AR,5091,Miller,4615
+Arkansas,AR,5093,Mississippi,4467
+Arkansas,AR,5095,Monroe,4533
+Arkansas,AR,5097,Montgomery,4548
+Arkansas,AR,5099,Nevada,4583
+Arkansas,AR,5101,Newton,4438
+Arkansas,AR,5103,Ouachita,4576
+Arkansas,AR,5105,Perry,4514
+Arkansas,AR,5107,Phillips,4546
+Arkansas,AR,5109,Pike,4572
+Arkansas,AR,5111,Poinsett,4487
+Arkansas,AR,5113,Polk,4568
+Arkansas,AR,5115,Pope,4483
+Arkansas,AR,5117,Prairie,4521
+Arkansas,AR,5119,Pulaski,4516
+Arkansas,AR,5121,Randolph,4434
+Arkansas,AR,5123,St. Francis,4519
+Arkansas,AR,5125,Saline,4522
+Arkansas,AR,5127,Scott,4550
+Arkansas,AR,5129,Searcy,4443
+Arkansas,AR,5131,Sebastian,4548
+Arkansas,AR,5133,Sevier,4612
+Arkansas,AR,5135,Sharp,4442
+Arkansas,AR,5137,Stone,4449
+Arkansas,AR,5139,Union,4581
+Arkansas,AR,5141,Van Buren,4462
+Arkansas,AR,5143,Washington,4461
+Arkansas,AR,5145,White,4495
+Arkansas,AR,5147,Woodruff,4507
+Arkansas,AR,5149,Yell,4526
+California,CA,6001,Alameda,4825
+California,CA,6003,Alpine,4934
+California,CA,6005,Amador,4995
+California,CA,6007,Butte,4786
+California,CA,6009,Calaveras,5022
+California,CA,6011,Colusa,4664
+California,CA,6013,Contra Costa,4820
+California,CA,6015,Del Norte,3976
+California,CA,6017,El Dorado,4954
+California,CA,6019,Fresno,5116
+California,CA,6021,Glenn,4576
+California,CA,6023,Humboldt,3995
+California,CA,6025,Imperial,5513
+California,CA,6027,Inyo,5456
+California,CA,6029,Kern,5224
+California,CA,6031,Kings,5186
+California,CA,6033,Lake,4463
+California,CA,6035,Lassen,4766
+California,CA,6037,Los Angeles,5080
+California,CA,6039,Madera,5100
+California,CA,6041,Marin,4595
+California,CA,6043,Mariposa,5067
+California,CA,6045,Mendocino,4248
+California,CA,6047,Merced,5071
+California,CA,6049,Modoc,4678
+California,CA,6051,Mono,5045
+California,CA,6053,Monterey,4983
+California,CA,6055,Napa,4671
+California,CA,6057,Nevada,4895
+California,CA,6059,Orange,5068
+California,CA,6061,Placer,4924
+California,CA,6063,Plumas,4794
+California,CA,6065,Riverside,5480
+California,CA,6067,Sacramento,4957
+California,CA,6069,San Benito,4986
+California,CA,6071,San Bernardino,5633
+California,CA,6073,San Diego,5173
+California,CA,6075,San Francisco,4697
+California,CA,6077,San Joaquin,4976
+California,CA,6079,San Luis Obispo,5096
+California,CA,6081,San Mateo,4729
+California,CA,6083,Santa Barbara,5044
+California,CA,6085,Santa Clara,4871
+California,CA,6087,Santa Cruz,4819
+California,CA,6089,Shasta,4559
+California,CA,6091,Sierra,4865
+California,CA,6093,Siskiyou,4350
+California,CA,6095,Solano,4818
+California,CA,6097,Sonoma,4508
+California,CA,6099,Stanislaus,5018
+California,CA,6101,Sutter,4847
+California,CA,6103,Tehama,4561
+California,CA,6105,Trinity,4205
+California,CA,6107,Tulare,5200
+California,CA,6109,Tuolumne,4997
+California,CA,6111,Ventura,4979
+California,CA,6113,Yolo,4800
+California,CA,6115,Yuba,4884
+Colorado,CO,8001,Adams,4588
+Colorado,CO,8003,Alamosa,5179
+Colorado,CO,8005,Arapahoe,4608
+Colorado,CO,8007,Archuleta,5246
+Colorado,CO,8009,Baca,4995
+Colorado,CO,8011,Bent,4960
+Colorado,CO,8013,Boulder,4505
+Colorado,CO,8015,Chaffee,4770
+Colorado,CO,8017,Cheyenne,4802
+Colorado,CO,8019,Clear Creek,4488
+Colorado,CO,8021,Conejos,5236
+Colorado,CO,8023,Costilla,5171
+Colorado,CO,8025,Crowley,4918
+Colorado,CO,8027,Custer,4936
+Colorado,CO,8029,Delta,4922
+Colorado,CO,8031,Denver,4595
+Colorado,CO,8033,Dolores,5078
+Colorado,CO,8035,Douglas,4621
+Colorado,CO,8037,Eagle,4609
+Colorado,CO,8039,Elbert,4656
+Colorado,CO,8041,El Paso,4738
+Colorado,CO,8043,Fremont,4868
+Colorado,CO,8045,Garfield,4744
+Colorado,CO,8047,Gilpin,4485
+Colorado,CO,8049,Grand,4489
+Colorado,CO,8051,Gunnison,4853
+Colorado,CO,8053,Hinsdale,5025
+Colorado,CO,8055,Huerfano,5066
+Colorado,CO,8057,Jackson,4451
+Colorado,CO,8059,Jefferson,4585
+Colorado,CO,8061,Kiowa,4873
+Colorado,CO,8063,Kit Carson,4724
+Colorado,CO,8065,Lake,4625
+Colorado,CO,8067,La Plata,5200
+Colorado,CO,8069,Larimer,4439
+Colorado,CO,8071,Las Animas,5084
+Colorado,CO,8073,Lincoln,4755
+Colorado,CO,8075,Logan,4524
+Colorado,CO,8077,Mesa,4911
+Colorado,CO,8079,Mineral,5085
+Colorado,CO,8081,Moffat,4659
+Colorado,CO,8083,Montezuma,5178
+Colorado,CO,8085,Montrose,5016
+Colorado,CO,8087,Morgan,4563
+Colorado,CO,8089,Otero,5003
+Colorado,CO,8091,Ouray,5010
+Colorado,CO,8093,Park,4641
+Colorado,CO,8095,Phillips,4547
+Colorado,CO,8097,Pitkin,4688
+Colorado,CO,8099,Prowers,4934
+Colorado,CO,8101,Pueblo,4966
+Colorado,CO,8103,Rio Blanco,4724
+Colorado,CO,8105,Rio Grande,5156
+Colorado,CO,8107,Routt,4540
+Colorado,CO,8109,Saguache,5004
+Colorado,CO,8111,San Juan,5021
+Colorado,CO,8113,San Miguel,5055
+Colorado,CO,8115,Sedgwick,4511
+Colorado,CO,8117,Summit,4527
+Colorado,CO,8119,Teller,4669
+Colorado,CO,8121,Washington,4609
+Colorado,CO,8123,Weld,4514
+Colorado,CO,8125,Yuma,4630
+Connecticut,CT,9001,Fairfield,3849
+Connecticut,CT,9003,Hartford,3819
+Connecticut,CT,9005,Litchfield,3797
+Connecticut,CT,9007,Middlesex,3835
+Connecticut,CT,9009,New Haven,3831
+Connecticut,CT,9011,New London,3853
+Connecticut,CT,9013,Tolland,3827
+Connecticut,CT,9015,Windham,3849
 Delaware,DE,10001,Kent,4081
 Delaware,DE,10003,New Castle,4038
 Delaware,DE,10005,Sussex,4103

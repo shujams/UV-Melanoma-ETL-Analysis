@@ -1,6 +1,5 @@
 from flask import Flask, render_template, jsonify
 import pymongo
-from bson.json_util import loads, dumps
 import uv_melanoma_ETL
 
 app = Flask(__name__)
@@ -17,11 +16,13 @@ collection_uv = db.uv
 
 @app.route("/")
 def index():
-    # render an index.html template and pass it the data you retrieved from the database
     return render_template("index.html")
 
+# Create a route that contains all the data we need to build the charts
 @app.route("/api/get_all_data")
 def get_all_data():
+    
+    # Pull the data from database and combine them to a json format
     incidences_clean = []
     mortalities_clean = []
     uvs_clean = []
@@ -59,7 +60,7 @@ def upload_to_db():
     # Run the get_data function
     incidence_dict, mortality_dict, UV_dict = uv_melanoma_ETL.get_data()
 
-    # Update the Mongo database using update and upsert=True
+    # Update the Mongo database
     for incidence_data in incidence_dict:
         collection_incidence.insert_one(incidence_data)
 

@@ -6,7 +6,7 @@ def get_data():
     CDI_data_to_load = "CDI_data.csv"
 
     # Read the CDI Data
-    CDI_data_pd = pd.read_csv(CDI_data_to_load)
+    CDI_data_pd = pd.read_csv(CDI_data_to_load, encoding="utf-8").fillna(0)
 
     # Extracting cancer data
     topic_sorted_df = CDI_data_pd.groupby('Topic')
@@ -26,10 +26,10 @@ def get_data():
     UV_data_to_load = "UV_data.csv"
 
     # Read the UV Exposure Data
-    UV_data_df = pd.read_csv(UV_data_to_load)
+    UV_data_df = pd.read_csv(UV_data_to_load, encoding="utf-8").fillna(0)
 
     # Group the data by states and get the mean of UV exposure for each states
-    UV_data_df = UV_data_df.groupby("STATENAME", as_index=False)["UV_ Wh/m²"].mean()
+    UV_data_df = UV_data_df.groupby("STATENAME", as_index=False)["UV_Wh/square_meter"].mean()
 
     # Convert the data frame of melanoma incidence data to dictionary
     incidence_dict = incidence_df.to_dict("records")
