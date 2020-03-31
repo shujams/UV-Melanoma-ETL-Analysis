@@ -1,0 +1,53 @@
+LocationAbbr,LocationDesc,Topic,Question,DataValueType,DataValue
+AL,Alabama,Cancer,"Melanoma, mortality",Average Annual Number,151
+AK,Alaska,Cancer,"Melanoma, mortality",Average Annual Number,12
+AZ,Arizona,Cancer,"Melanoma, mortality",Average Annual Number,203
+AR,Arkansas,Cancer,"Melanoma, mortality",Average Annual Number,93
+CA,California,Cancer,"Melanoma, mortality",Average Annual Number,943
+CO,Colorado,Cancer,"Melanoma, mortality",Average Annual Number,161
+CT,Connecticut,Cancer,"Melanoma, mortality",Average Annual Number,106
+DE,Delaware,Cancer,"Melanoma, mortality",Average Annual Number,29
+DC,District of Columbia,Cancer,"Melanoma, mortality",Average Annual Number,7
+FL,Florida,Cancer,"Melanoma, mortality",Average Annual Number,728
+GA,Georgia,Cancer,"Melanoma, mortality",Average Annual Number,217
+HI,Hawaii,Cancer,"Melanoma, mortality",Average Annual Number,24
+ID,Idaho,Cancer,"Melanoma, mortality",Average Annual Number,55
+IL,Illinois,Cancer,"Melanoma, mortality",Average Annual Number,328
+IN,Indiana,Cancer,"Melanoma, mortality",Average Annual Number,215
+IA,Iowa,Cancer,"Melanoma, mortality",Average Annual Number,106
+KS,Kansas,Cancer,"Melanoma, mortality",Average Annual Number,93
+KY,Kentucky,Cancer,"Melanoma, mortality",Average Annual Number,151
+LA,Louisiana,Cancer,"Melanoma, mortality",Average Annual Number,105
+ME,Maine,Cancer,"Melanoma, mortality",Average Annual Number,51
+MD,Maryland,Cancer,"Melanoma, mortality",Average Annual Number,160
+MA,Massachusetts,Cancer,"Melanoma, mortality",Average Annual Number,219
+MI,Michigan,Cancer,"Melanoma, mortality",Average Annual Number,275
+MN,Minnesota,Cancer,"Melanoma, mortality",Average Annual Number,144
+MS,Mississippi,Cancer,"Melanoma, mortality",Average Annual Number,71
+MO,Missouri,Cancer,"Melanoma, mortality",Average Annual Number,208
+MT,Montana,Cancer,"Melanoma, mortality",Average Annual Number,36
+NE,Nebraska,Cancer,"Melanoma, mortality",Average Annual Number,63
+NV,Nevada,Cancer,"Melanoma, mortality",Average Annual Number,80
+NH,New Hampshire,Cancer,"Melanoma, mortality",Average Annual Number,42
+NJ,New Jersey,Cancer,"Melanoma, mortality",Average Annual Number,245
+NM,New Mexico,Cancer,"Melanoma, mortality",Average Annual Number,60
+NY,New York,Cancer,"Melanoma, mortality",Average Annual Number,484
+NC,North Carolina,Cancer,"Melanoma, mortality",Average Annual Number,296
+ND,North Dakota,Cancer,"Melanoma, mortality",Average Annual Number,17
+OH,Ohio,Cancer,"Melanoma, mortality",Average Annual Number,391
+OK,Oklahoma,Cancer,"Melanoma, mortality",Average Annual Number,130
+OR,Oregon,Cancer,"Melanoma, mortality",Average Annual Number,147
+PA,Pennsylvania,Cancer,"Melanoma, mortality",Average Annual Number,459
+RI,Rhode Island,Cancer,"Melanoma, mortality",Average Annual Number,32
+SC,South Carolina,Cancer,"Melanoma, mortality",Average Annual Number,135
+SD,South Dakota,Cancer,"Melanoma, mortality",Average Annual Number,22
+TN,Tennessee,Cancer,"Melanoma, mortality",Average Annual Number,213
+TX,Texas,Cancer,"Melanoma, mortality",Average Annual Number,544
+US,United States,Cancer,"Melanoma, mortality",Average Annual Number,9071
+UT,Utah,Cancer,"Melanoma, mortality",Average Annual Number,79
+VT,Vermont,Cancer,"Melanoma, mortality",Average Annual Number,23
+VA,Virginia,Cancer,"Melanoma, mortality",Average Annual Number,239
+WA,Washington,Cancer,"Melanoma, mortality",Average Annual Number,209
+WV,West Virginia,Cancer,"Melanoma, mortality",Average Annual Number,76
+WI,Wisconsin,Cancer,"Melanoma, mortality",Average Annual Number,176
+WY,Wyoming,Cancer,"Melanoma, mortality",Average Annual Number,18

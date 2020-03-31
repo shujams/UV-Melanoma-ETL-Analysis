@@ -1,0 +1,53 @@
+LocationAbbr,LocationDesc,Topic,Question,DataValueType,DataValue
+AL,Alabama,Cancer,"Invasive melanoma, incidence",Average Annual Number,1128
+AK,Alaska,Cancer,"Invasive melanoma, incidence",Average Annual Number,81
+AZ,Arizona,Cancer,"Invasive melanoma, incidence",Average Annual Number,1135
+AR,Arkansas,Cancer,"Invasive melanoma, incidence",Average Annual Number,534
+CA,California,Cancer,"Invasive melanoma, incidence",Average Annual Number,7740
+CO,Colorado,Cancer,"Invasive melanoma, incidence",Average Annual Number,1113
+CT,Connecticut,Cancer,"Invasive melanoma, incidence",Average Annual Number,902
+DE,Delaware,Cancer,"Invasive melanoma, incidence",Average Annual Number,293
+DC,District of Columbia,Cancer,"Invasive melanoma, incidence",Average Annual Number,49
+FL,Florida,Cancer,"Invasive melanoma, incidence",Average Annual Number,4692
+GA,Georgia,Cancer,"Invasive melanoma, incidence",Average Annual Number,2194
+HI,Hawaii,Cancer,"Invasive melanoma, incidence",Average Annual Number,316
+ID,Idaho,Cancer,"Invasive melanoma, incidence",Average Annual Number,405
+IL,Illinois,Cancer,"Invasive melanoma, incidence",Average Annual Number,2399
+IN,Indiana,Cancer,"Invasive melanoma, incidence",Average Annual Number,1223
+IA,Iowa,Cancer,"Invasive melanoma, incidence",Average Annual Number,798
+KS,Kansas,Cancer,"Invasive melanoma, incidence",Average Annual Number,712
+KY,Kentucky,Cancer,"Invasive melanoma, incidence",Average Annual Number,1130
+LA,Louisiana,Cancer,"Invasive melanoma, incidence",Average Annual Number,714
+ME,Maine,Cancer,"Invasive melanoma, incidence",Average Annual Number,370
+MD,Maryland,Cancer,"Invasive melanoma, incidence",Average Annual Number,1272
+MA,Massachusetts,Cancer,"Invasive melanoma, incidence",Average Annual Number,1590
+MI,Michigan,Cancer,"Invasive melanoma, incidence",Average Annual Number,2053
+MN,Minnesota,Cancer,"Invasive melanoma, incidence",Average Annual Number,1530
+MS,Mississippi,Cancer,"Invasive melanoma, incidence",Average Annual Number,538
+MO,Missouri,Cancer,"Invasive melanoma, incidence",Average Annual Number,1177
+MT,Montana,Cancer,"Invasive melanoma, incidence",Average Annual Number,268
+NE,Nebraska,Cancer,"Invasive melanoma, incidence",Average Annual Number,356
+NV,Nevada,Cancer,"Invasive melanoma, incidence",Average Annual Number,
+NH,New Hampshire,Cancer,"Invasive melanoma, incidence",Average Annual Number,400
+NJ,New Jersey,Cancer,"Invasive melanoma, incidence",Average Annual Number,2093
+NM,New Mexico,Cancer,"Invasive melanoma, incidence",Average Annual Number,406
+NY,New York,Cancer,"Invasive melanoma, incidence",Average Annual Number,3717
+NC,North Carolina,Cancer,"Invasive melanoma, incidence",Average Annual Number,2302
+ND,North Dakota,Cancer,"Invasive melanoma, incidence",Average Annual Number,158
+OH,Ohio,Cancer,"Invasive melanoma, incidence",Average Annual Number,2491
+OK,Oklahoma,Cancer,"Invasive melanoma, incidence",Average Annual Number,654
+OR,Oregon,Cancer,"Invasive melanoma, incidence",Average Annual Number,1140
+PA,Pennsylvania,Cancer,"Invasive melanoma, incidence",Average Annual Number,3045
+RI,Rhode Island,Cancer,"Invasive melanoma, incidence",Average Annual Number,252
+SC,South Carolina,Cancer,"Invasive melanoma, incidence",Average Annual Number,1144
+SD,South Dakota,Cancer,"Invasive melanoma, incidence",Average Annual Number,167
+TN,Tennessee,Cancer,"Invasive melanoma, incidence",Average Annual Number,1431
+TX,Texas,Cancer,"Invasive melanoma, incidence",Average Annual Number,3025
+US,United States,Cancer,"Invasive melanoma, incidence",Average Annual Number,65719
+UT,Utah,Cancer,"Invasive melanoma, incidence",Average Annual Number,742
+VT,Vermont,Cancer,"Invasive melanoma, incidence",Average Annual Number,215
+VA,Virginia,Cancer,"Invasive melanoma, incidence",Average Annual Number,1535
+WA,Washington,Cancer,"Invasive melanoma, incidence",Average Annual Number,1821
+WV,West Virginia,Cancer,"Invasive melanoma, incidence",Average Annual Number,464
+WI,Wisconsin,Cancer,"Invasive melanoma, incidence",Average Annual Number,1284
+WY,Wyoming,Cancer,"Invasive melanoma, incidence",Average Annual Number,135
