@@ -18,9 +18,13 @@ def get_data():
     # Extracting melanoma cancer data for both incidence and mortality
     incidence_df = new_cancer_df.loc[new_cancer_df['Question'] == 'Invasive melanoma, incidence']
     incidence_df = incidence_df.loc[incidence_df['DataValueType'] == 'Average Annual Number']
+    incidence_df.set_index('LocationAbbr', inplace=True)
+    incidence_df.drop(["AK", "HI"], inplace = True) 
 
     mortality_df = new_cancer_df.loc[new_cancer_df['Question'] == 'Melanoma, mortality']
     mortality_df = mortality_df.loc[mortality_df['DataValueType'] == 'Average Annual Number']
+    mortality_df.set_index('LocationAbbr', inplace=True)
+    mortality_df.drop(["AK", "HI"], inplace = True) 
 
     # Resources #2: UV Exposure Data
     UV_data_to_load = "UV_data.csv"
