@@ -80,6 +80,8 @@ function buildCharts(state){
             type: 'scatter',
             x: incidencesNumber,
             y: statesName,
+            xaxis: 'x1',
+            yaxis: 'y1',
             mode: 'markers',
             name: 'Melanoma Incidences Number by States',
             marker: {
@@ -96,6 +98,8 @@ function buildCharts(state){
           var trace2 = {
             x: mortalitiesNumber,
             y: statesName,
+            xaxis: 'x2',
+            yaxis: 'y1',
             mode: 'markers',
             name: 'Melanoma Mortalities Number by States',
             marker: {
@@ -113,9 +117,12 @@ function buildCharts(state){
           
           var layout = {
             title: 'The Number of Melanoma Incidences and Mortalities by States in United States',
-            xaxis: {
-              showgrid: false,
-              showline: true,
+            xaxis1: {
+              range: [0, 8000],
+              domain: [0, 0.5],
+              zeroline: false,
+              showgrid: true,
+              showline: false,
               linecolor: 'rgb(102, 102, 102)',
               titlefont: {
                 font: {
@@ -127,31 +134,40 @@ function buildCharts(state){
                   color: 'rgb(102, 102, 102)'
                 }
               },
-              autotick: true,
-            //   dtick: 10,
+              dtick: 1000,
               ticks: 'outside',
               tickcolor: 'rgb(102, 102, 102)'
             },
-            // yaxis:{
-            //   showgrid: false,
-            //   showline: true,
-            //   linecolor: 'rgb(102, 102, 102)',
-            // },
+            xaxis2: {
+                range: [0, 1050],
+                domain: [0.5, 1],
+                zeroline: false,
+                showgrid: true,
+                showline: false,
+                linecolor: 'rgb(102, 102, 102)',
+                dtick: 150,
+                ticks: 'outside',
+                tickcolor: 'rgb(102, 102, 102)',
+                side: 'top'
+            },
             margin: {
               l: 140,
               r: 40,
               b: 50,
-              t: 80
+              t: 175
             },
             legend: {
               font: {
                 size: 10,
               },
-              yanchor: 'middle',
-              xanchor: 'right'
+              x: 1,
+              xanchor: 'right',
+              y: 1.08
+            //   yanchor: 'middle',
+            //   xanchor: 'right'
             },
-            width: 800,
-            height: 1000,
+            width: 1000,
+            height: 1100,
             paper_bgcolor: 'rgb(254, 247, 234)',
             plot_bgcolor: 'rgb(254, 247, 234)',
             hovermode: 'closest'
