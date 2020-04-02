@@ -22,7 +22,7 @@ return this._div;
 
 info.update = function (props) {
 this._div.innerHTML = '<h4>US UV Radiation Density</h4>' +  (props ?
-  '<b>' + props.name + '</b><br />' + props.UV + ' people / mi<sup>2</sup>'
+  '<b>' + props.name + '</b><br />' + props.UV + ' UV_ Wh/m<sup>2</sup> '
   : 'Hover over a state');
 };
 
