@@ -2,7 +2,7 @@ var map = L.map('map').setView([37.8, -96], 4);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic21zNzg2IiwiYSI6ImNrN3drcG15ZzAzZGEzbHBpaG5ndjdtZW8ifQ.1qrR_a2RoKB7_9NDyadMRQ', {
 maxZoom: 18,
-attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> ' +
   '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
   'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 id: 'mapbox/light-v9',
@@ -29,7 +29,7 @@ this._div.innerHTML = '<h4>US UV Radiation Density</h4>' +  (props ?
 info.addTo(map);
 
 
-// get color depending on population density value
+// get color depending on UV value value
 function getColor(d) {
 return d > 4714 ? '#ffffd9' :
     d > 4515  ? '#edf8b1' :
@@ -88,6 +88,7 @@ layer.on({
   click: zoomToFeature
 });
 }
+// load geojson data (UV values plus state demarkations)
 
 geojson = L.geoJson(statesData, {
 style: style,
@@ -96,6 +97,7 @@ onEachFeature: onEachFeature
 
 map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
 
+// create legend with UV gradations
 
 var legend = L.control({position: 'bottomright'});
 
