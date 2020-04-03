@@ -1,27 +1,3 @@
-// var svgWidth = 960;
-// var svgHeight = 500;
-
-// var margin = {
-//   top: 20,
-//   right: 40,
-//   bottom: 80,
-//   left: 100
-// };
-
-// var width = svgWidth - margin.left - margin.right;
-// var height = svgHeight - margin.top - margin.bottom;
-
-// // Create an SVG wrapper, append an SVG group that will hold our scatter chart,
-// // and shift the latter by left and top margins.
-// var svg = d3
-//   .select("#scatter")
-//   .append("svg")
-//   .attr("width", svgWidth)
-//   .attr("height", svgHeight);
-
-// // Append an SVG group
-// var chartGroup = svg.append("g")
-//   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 function buildCharts(state){
     // Import Data
@@ -80,8 +56,6 @@ function buildCharts(state){
             type: 'scatter',
             x: incidencesNumber,
             y: statesName,
-            xaxis: 'x1',
-            yaxis: 'y1',
             mode: 'markers',
             name: 'Melanoma Incidences Number by States',
             marker: {
@@ -98,8 +72,6 @@ function buildCharts(state){
           var trace2 = {
             x: mortalitiesNumber,
             y: statesName,
-            xaxis: 'x2',
-            yaxis: 'y1',
             mode: 'markers',
             name: 'Melanoma Mortalities Number by States',
             marker: {
@@ -117,44 +89,31 @@ function buildCharts(state){
           
           var layout = {
             title: 'The Number of Melanoma Incidences and Mortalities by States in United States',
-            xaxis1: {
-              range: [0, 8000],
-              domain: [0, 0.5],
-              zeroline: false,
-              showgrid: true,
-              showline: false,
-              linecolor: 'rgb(102, 102, 102)',
-              titlefont: {
-                font: {
-                  color: 'rgb(204, 204, 204)'
-                }
-              },
-              tickfont: {
-                font: {
-                  color: 'rgb(102, 102, 102)'
-                }
-              },
-              dtick: 1000,
-              ticks: 'outside',
-              tickcolor: 'rgb(102, 102, 102)'
-            },
-            xaxis2: {
-                range: [0, 1050],
-                domain: [0.5, 1],
-                zeroline: false,
-                showgrid: true,
-                showline: false,
+            xaxis: {
+                range: [0, 8000],
+                showgrid: false,
+                showline: true,
                 linecolor: 'rgb(102, 102, 102)',
-                dtick: 150,
+                titlefont: {
+                  font: {
+                    color: 'rgb(204, 204, 204)'
+                  }
+                },
+                tickfont: {
+                  font: {
+                    color: 'rgb(102, 102, 102)'
+                  }
+                },
+                autotick: false,
+                dtick: 800,
                 ticks: 'outside',
-                tickcolor: 'rgb(102, 102, 102)',
-                side: 'top'
+                tickcolor: 'rgb(102, 102, 102)'
             },
             margin: {
               l: 140,
               r: 40,
               b: 50,
-              t: 175
+              t: 90
             },
             legend: {
               font: {
@@ -162,20 +121,16 @@ function buildCharts(state){
               },
               x: 1,
               xanchor: 'right',
-              y: 1.08
-            //   yanchor: 'middle',
-            //   xanchor: 'right'
+              y: 1.03
             },
-            width: 1000,
-            height: 1100,
+            width: 900,
+            height: 1000,
             paper_bgcolor: 'rgb(254, 247, 234)',
             plot_bgcolor: 'rgb(254, 247, 234)',
             hovermode: 'closest'
           };
           
           Plotly.newPlot('dotplot', data, layout);
-        
-
     });
 };
 buildCharts();
