@@ -124,27 +124,52 @@ function barChart(state){
                 labels: top10StatesName,
                 datasets:[
                     {
-                        label: 'Melanoma Incidences for Top 10 States with Highest UV',
+                        label: 'Melanoma Incidence',
                         data: top10IncidencesNumber,
                         datalabels: {
                             color: 'white'
                         },
-                        backgroundColor: '#1f6dcc'
+                        backgroundColor: '#c83349'
                     },
                     {
-                        label: 'Melanoma Mortality for Top 10 States with Highest UV',
+                        label: 'Melanoma Mortality',
                         data: top10MortalitiesNumber,
-                        backgroundColor: '#4fe3d4'
+                        datalabels: {
+                            color: '#000080'
+                        },
+                        backgroundColor: '#F4C2DB'
                     }
                 ]
             },
             options: {
+                title: {
+                    display: true,
+                    text: 'Number of Melanoma for Top 10 States with Highest UVs in United States',
+                    fontStyle: 'bold',
+                    fontSize: 16,
+                    position: 'top',
+                    padding: 10
+                },
+                legend: {
+                    display: true,
+                    position: 'right',
+                },
                 scales: {
-                    xAxes: [{
-                        stacked: false
-                    }],
                     yAxes: [{
-                        stacked: false
+                        stacked: false,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'State Name'
+                            // fontColor: '#b2b2b2'
+                        }
+                    }],
+                    xAxes: [{
+                        stacked: false,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Number of Incidence / Mortality'
+                            // fontColor: '#b2b2b2'
+                        }
                     }]
                 }
             }

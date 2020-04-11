@@ -86,9 +86,9 @@ function bubbleChart(state){
                         label: 'UV and Melanoma Incidences',
                         data: uvIncidenceDict,
                         datalabels: {
-                            color: 'brown'
+                            color: 'white'
                         },
-                        backgroundColor: "rgba(153,255,51,0.6)"
+                        backgroundColor: "#ff7b25"
                     },
                     {
                         label: 'UV and Melanoma Mortality',
@@ -98,18 +98,45 @@ function bubbleChart(state){
                                 title: {color: 'white'}
                             }
                         },
-                        backgroundColor: "rgba(255,0,128,0.6)"
+                        backgroundColor: "#4040a1"
                     }
                 ]
             },
             options: {
+                title: {
+                    display: true,
+                    text: 'UV and Number of Melanoma by States in United States',
+                    fontStyle: 'bold',
+                    fontSize: 16,
+                    position: 'top',
+                    padding: 10
+                },
+                legend: {
+                    display: true,
+                    position: 'right',
+                },
                 plugins: {
                     datalabels:{
-                        color: 'blue',
                         formatter: function(value, context){
                                 return context.chart.data.labels[context.dataIndex];
                             }
                     }
+                },
+                scales: {
+                    yAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'UV Number'
+                            // fontColor: '#b2b2b2'
+                        }
+                    }],
+                    xAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Number of Incidence / Mortality'
+                            // fontColor: '#b2b2b2'
+                        }
+                    }]
                 }
             },
             scales: {
@@ -136,7 +163,6 @@ function bubbleChart(state){
                         display: false,
                         lineWidth: 3
                     }
-
                 }]
             }
 

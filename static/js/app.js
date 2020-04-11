@@ -57,7 +57,7 @@ function buildCharts(state){
             x: incidencesNumber,
             y: statesName,
             mode: 'markers',
-            name: 'Melanoma Incidences Number by States',
+            name: 'Melanoma Incidences Number',
             marker: {
               color: 'rgba(156, 165, 196, 0.95)',
               line: {
@@ -73,7 +73,7 @@ function buildCharts(state){
             x: mortalitiesNumber,
             y: statesName,
             mode: 'markers',
-            name: 'Melanoma Mortalities Number by States',
+            name: 'Melanoma Mortalities Number',
             marker: {
               color: 'rgba(204, 204, 204, 0.95)',
               line: {
@@ -90,6 +90,10 @@ function buildCharts(state){
           var layout = {
             title: 'The Number of Melanoma Incidences and Mortalities by States in United States',
             xaxis: {
+                title: 'Number of Incidence / Mortality',
+                titlefont: {
+                  size: 16
+                },
                 range: [0, 8000],
                 showgrid: false,
                 showline: true,
@@ -109,10 +113,17 @@ function buildCharts(state){
                 ticks: 'outside',
                 tickcolor: 'rgb(102, 102, 102)'
             },
+            yaxis: {
+                title: 'State Name',
+                titlefont: {
+                  size: 16
+                },
+                autotick: false,
+            },
             margin: {
               l: 140,
               r: 40,
-              b: 50,
+              b: 80,
               t: 90
             },
             legend: {
@@ -123,14 +134,14 @@ function buildCharts(state){
               xanchor: 'right',
               y: 1.03
             },
-            width: 900,
-            height: 1000,
             paper_bgcolor: 'rgb(254, 247, 234)',
             plot_bgcolor: 'rgb(254, 247, 234)',
             hovermode: 'closest'
           };
           
-          Plotly.newPlot('dotplot', data, layout);
+          var config = {responsive: true}
+
+          Plotly.newPlot('dotplot', data, layout, config);
     });
 };
 buildCharts();

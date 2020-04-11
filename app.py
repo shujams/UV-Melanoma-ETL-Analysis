@@ -18,6 +18,10 @@ collection_uv = db.uv
 def index():
     return render_template("index.html")
 
+@app.route("/uv-melanoma")
+def uv_melanoma():
+    return render_template("uv-melanoma.html")
+
 # Create a route that contains all the data we need to build the charts
 @app.route("/api/get_all_data")
 def get_all_data():
