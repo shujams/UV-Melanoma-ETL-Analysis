@@ -20,7 +20,15 @@ def index():
 
 @app.route("/uv-melanoma")
 def uv_melanoma():
-    return render_template("uv-melanoma.html")
+    return render_template("uv_melanoma.html")
+
+@app.route("/top-10-states-melanoma")
+def top_10_melanoma():
+    return render_template("top_10_melanoma.html")
+
+@app.route("/worldwide-melanoma")
+def worldwide_melanoma():
+    return render_template("worldwide-melanoma.html")
 
 # Create a route that contains all the data we need to build the charts
 @app.route("/api/get_all_data")

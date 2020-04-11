@@ -37,34 +37,28 @@
     </nav>
 
     <div class="container text-center">
-      <h1 class="jumbotron">A Visual Analysis of UV Exposure and Melanoma Incidences & Mortalities</h1>
+        <h1 class="jumbotron">A Visual Analysis of UV Exposure and Melanoma Incidences & Mortalities</h1>
     </div>
 
     <div class="container">
-      
-      <div class="row">
-        <div class="col-12">
-          <div class="p-3 mb-2 bg-dark text-white">
-            <h5 class="display-5 text-white">The following map graph shows the UV Radiation Density for each state in the Continental United States</h5>
-          </div>
-          <div id="map"></div>
+
+        <div class="row">
+            <div class="col-12">
+              <div class="p-3 mb-2 bg-dark text-white">
+                <h6 class="display-5 text-white">The following map graph shows the UV Radiation Density and Number of Melanoma Incidences and Mortalities for each States in United States</h6>
+              </div>
+
+              <div class="bubble-chart-container">
+                <canvas id="bubble"></canvas>
+              </div>
+
+            </div>
+            
         </div>
+
         
-      </div>
-
-      <br>
-      <br>
-      
-      <div class="row">
-        <div class="col-12">
-          <div class="p-3 mb-2 bg-dark text-white">
-            <h5 class="display-5 text-white">The following graph shows the Number of Melanoma Incidences and Mortalities for each state in the Continental United States</h5>
-          </div>
-          <div id="dotplot"></div>
-        </div>
-      </div>
-
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
