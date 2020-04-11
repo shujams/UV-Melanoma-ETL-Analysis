@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -96,4 +96,80 @@
     <script type="text/javascript" src="../static/js/horizontal-bar.js"></script>
     
   </body>
+</html>
+	<head>
+		<title>WebGL Globe_China and US Population</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body {
+				background-color: #101010;
+				margin: 0px;
+				overflow: hidden;
+
+				color: #ffffff;
+				font-family: sans-serif;
+				font-size: 13px;
+			}
+
+			#title {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				font-size: 30px;
+				font-family: Candara;
+				line-height: 20px;
+				width: 400px;
+				padding: 40px;
+			}
+
+			#info {
+				position: absolute;
+				top: 30px;
+				left: 0px;
+				width: 300px;
+				padding: 40px;
+			}
+
+			#more {
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+				width: 300px;
+				padding: 40px;
+			}
+
+			a {
+				color: #0080ff;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="container"></div>
+		<div id="title">
+			Worldwide Melanoma Incidences and Mortalities
+		</div>
+		<div id="info">
+			Powered by <a href="http://www.chromeexperiments.com/globe/">WebGL Globe</a><br />
+			Data processed by <a href="http://newnaw.com">diligentpig</a><br />
+			Released under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License</a>
+		</div>
+
+		<!--<div id="more">
+			Hello World!
+		</div>-->
+
+        <script type="text/javascript" src="../static/js/three.js"></script>
+        <script type="text/javascript" src="https://globe.chromeexperiments.com/third-party/Three/ThreeWebGL.js"></script>
+        <script type="text/javascript" src="https://globe.chromeexperiments.com/third-party/Three/ThreeExtras.js"></script>
+        <script type="text/javascript" src="https://globe.chromeexperiments.com/third-party/Three/RequestAnimationFrame.js"></script>
+        <script type="text/javascript" src="https://globe.chromeexperiments.com/third-party/Three/Detector.js"></script>
+        <script type="text/javascript" src="../static/js/Tween.js"></script>
+        <script type="text/javascript" src="../static/js/webgl_data.json"></script>
+		    <script type="text/javascript" src="../static/js/webgl_globe.js"></script>
+
+		
+
+	</body>
+
 </html>
