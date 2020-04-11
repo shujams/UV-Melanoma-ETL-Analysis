@@ -2,7 +2,7 @@
 
 ## Project Summary:
 UV Exposure has been recognized as one of the causes of Melanoma.
-Hence, in this project, our goal is to show relationship between UV exposure and number of Melanoma specifically in United States by interactive graphs visualization.
+In this project, our goal is to show relationship between UV exposure and number of Melanoma specifically in United States by interactive graphs visualization.
 
 - Performing ETL (Extract, Transform, and Load) on the data.
 - Creating Python Flask routes to load, create our own API, and direct to each html webpage.
