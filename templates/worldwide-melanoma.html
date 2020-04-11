@@ -10,7 +10,7 @@
       body {
         margin: 0;
         padding: 0;
-        background: #000000 url(stars.jpg) repeat;
+        background: #000000 url(../static/img/stars.jpg) repeat;
         background-size: cover;
         color: #ffffff;
         font-family: sans-serif;
@@ -20,7 +20,7 @@
       }
 
         #container {
-        background-image: url(stars.jpg);
+        background-image: url(../static/img/stars.jpg);
         background-size: cover;
         background-repeat: repeat;
         background-position: center center;
@@ -129,10 +129,10 @@
     World Melanoma Incidence vs Mortality Rates
   </div>
 
-  <script type="text/javascript" src="../WebGL_Globe/third-party/Detector.js"></script>
-  <script type="text/javascript" src="../WebGL_Globe/third-party/three.min.js"></script>
-  <script type="text/javascript" src="../WebGL_Globe/third-party/Tween.js"></script>
-  <script type="text/javascript" src="../WebGL_Globe/globe.js"></script>
+  <script type="text/javascript" src="../static/js/Detector.js"></script>
+  <script type="text/javascript" src="../static/js/three.min.js"></script>
+  <script type="text/javascript" src="../static/js/Tween.js"></script>
+  <script type="text/javascript" src="../static/js/globe.js"></script>
   <script type="text/javascript">
 
     if(!Detector.webgl){
@@ -171,7 +171,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', '../WebGL_Globe/cancer_data_cleaned.json', true);
+      xhr.open('GET', '../static/js/cancer_data_cleaned.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
@@ -183,7 +183,7 @@
             globe.createPoints();
             settime(globe,0)();
             globe.animate();
-            document.body.style.backgroundImage = '../WebGL Globe/third-party/starfield.jpg'; // remove loading
+            document.body.style.backgroundImage = '../static/img/starfield.jpg'; // remove loading
           }
         }
       };
