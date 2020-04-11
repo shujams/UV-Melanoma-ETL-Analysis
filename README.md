@@ -4,9 +4,9 @@
 UV Exposure has been recognized as one of the causes of Melanoma.
 Hence, in this project, our goal is to show relationship between UV exposure and number of Melanoma specifically in United States by interactive graphs visualization.
 
-Performing ETL (Extract, Transform, and Load) on the data.
-Creating Python Flask routes to load, create our own API, and direct to each html webpage.
-Presenting the analysis on graph visualization using multiple javascript libraries.
+- Performing ETL (Extract, Transform, and Load) on the data.
+- Creating Python Flask routes to load, create our own API, and direct to each html webpage.
+- Presenting the analysis on graph visualization using multiple javascript libraries.
 
 
 ## Data Resources:
@@ -30,16 +30,16 @@ Once everything worked accordingly in jupyter notebook. We copied the codes to p
 #### Load
 We created flask app.py file to connect to the database (MongoDB), create collections, and load the cleaned data, which we will use in our visualization. Multiple routes were created for the following purposes.
 
-@app.route("/api/upload_to_db")
+**@app.route("/api/upload_to_db")**
 
 The first step when we run the server for the first time, in order to load the data to MongoDB. This route called the function “get_data()” from “uv_melanoma_ETL.py” which cleaned the data. After the data is uploaded successfully to MongoDB, the page will return a confirmation that data is uploaded.
 
 To ensure the data is ready to be used for visualization, we created the following route which is also our API route.
-@app.route("/api/get_all_data")
+**@app.route("/api/get_all_data")**
 
 This will also be the route we will use in our javascript files later on to build our charts.
 
-@app.route("/")
+**@app.route("/")**
 
 This is the route for our website homepage and the other remaining routes will direct to other pages which shows other graphs.
 
