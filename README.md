@@ -2,7 +2,7 @@
 
 ## Project Summary:
 UV radiation exposure has been recognized as one of the leading causes of Melanoma.
-In this project, our goal is to show relationship between UV exposure and Melanoma incidence/mortality rates specifically in the United States by interactive graphs visualization.
+In this project, our goal is to highlight relationships between UV exposure and Melanoma incidence/mortality rates specifically in the United States by interactive graphic visualization.
 
 - Performing ETL (Extract, Transform, and Load) on the data.
 - Creating Python Flask routes to load, create our own API, and direct to each html webpage.
