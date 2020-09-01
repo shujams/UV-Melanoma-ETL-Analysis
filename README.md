@@ -1,4 +1,4 @@
-# UV Exposure and Melanoma Analysis and Visualization
+# UV Exposure and Melanoma: Analysis and Visualization
 
 ## Project Summary:
 UV radiation exposure has been recognized as one of the leading causes of Melanoma.
