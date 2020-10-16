@@ -17,14 +17,12 @@ In this project, our goal is to highlight relationships between UV exposure and 
 ## Process:
 
 #### Extract and Transform
-We found UV exposure data in the United States for each county and took the average of UV exposure to get the UV exposure for each state.
-
-We found US chronic disease indicators data which covers 124 indicators data collected by CDC’s Division of Population Health. From this report, we focused on and extracted the incidences and mortalities number for Cancer Melanoma per each state.
+We data mined UV exposure data in the United States on a per-county level and calculated an aggregated average for each state. Futhermore, we acquiried US chronic disease indicators data which covers 124 indicators data collected by CDC’s Division of Population Health. From this report, we focused on and extracted the incidences and mortalities rates for Cancerous Melanoma per each state.
 
 We used Jupyter Notebook as our testing worksheets before moving the process to a Python script file.
-The data cleaning process was done using the Pandas library, then we loaded the data to MongoDB through Jupyter Notebook.
+The data cleaning process was done using the Pandas library, then we loaded the data to MongoDB through the Jupyter Notebook environment.
 
-Once everything worked accordingly in Jupyter Notebook, we copied the codes to another Python script (“uv_melanoma_ETL.py”) and stored them in their own function (“get_data()”).
+Once everything worked accordingly in the Jupyter Notebook, we copied the codes to another Python script (“uv_melanoma_ETL.py”) and stored them in their own function (“get_data()”).
 
 
 #### Load
